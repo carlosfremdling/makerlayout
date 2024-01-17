@@ -18,7 +18,7 @@ Layout desenvolvido para treinamento de front-end. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+  <img alt="projeto Maker" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
