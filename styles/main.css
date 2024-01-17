@@ -1,0 +1,132 @@
+
+
+/* --- Reset das configurações do User Agent --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* --- Global Styles --- */
+:root {
+    --background-color: #141623;
+    --menu-color: #A9A5A6;
+    --button-color: #00966B;
+    --text-color: #FFFFFF;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+}
+/* --- End Global Styles --- */
+
+/* --- Header Styles --- */
+header {
+    margin-top: 3.625rem;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+header .menu ul li a {
+    color: var(--menu-color);
+    transition: color .3s;
+}
+
+header .menu ul li a:hover {
+    color: var(--text-color);
+}
+
+header .container .button {
+    background: var(--button-color);
+    padding: 1rem 1.75rem;
+    color: var(--text-color);
+    border-radius: .5rem;
+    transition: filter .3s;
+    font-weight: 600;
+}
+
+header .container .button:hover {
+    filter: brightness(1.2);
+}
+
+.container {
+    display: flex;
+    width: calc(100% - 800px);
+    margin: 0 auto;
+}
+/* --- End Header Styles --- */
+
+
+/* --- Main Styles --- */
+main .container {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+main .container .maker-info {
+    width: 100%;
+    max-width: 665px;
+}
+
+main .container .maker-info h1 {
+    color: var(--text-color);
+    font-size: 5.375rem;
+}
+
+main .container .maker-info .content {
+    display: flex;
+}
+
+
+main .container .maker-info p {
+    color: var(--menu-color);
+    font-size: 1.25rem;
+    margin-top: 2rem;
+}
+
+main .container .maker-info .buttons {
+    margin-top: 6rem;
+}
+
+main .container .maker-info .buttons .button {
+    background: var(--button-color);
+    padding: 1.81rem 3.25rem;
+    color: var(--text-color);
+    border-radius: 1rem;
+    transition: filter .3s;
+    font-weight: 600;
+    margin-right: 2.5rem;
+    font-size: 1.375rem;
+
+    transition: filter .3s;
+}
+
+main .container .maker-info .buttons .button:hover {
+    filter: brightness(1.2);
+}
+
+main .container .maker-info .buttons a > span {
+    color: var(--text-color);
+    font-size: 1,25rem;
+    font-weight: 500;
+    margin-left: 0.875rem;
+}
+/* --- End Main Styles --- */
